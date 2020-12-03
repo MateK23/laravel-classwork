@@ -2,34 +2,52 @@
 
 ## Tasks
 
-**Tornike** - admin (crud):
-&nbsp;news:
-&nbsp;&nbsp;id
-&nbsp;&nbsp;image
-&nbsp;&nbsp;title
-&nbsp;&nbsp;description
-**Mate** - guest:
-&nbsp;index:
-&nbsp;&nbsp;news:
-&nbsp;&nbsp;image
-&nbsp;&nbsp;title
-&nbsp;&nbsp;readmore
-&nbsp;single page:
-&nbsp;&nbsp;news:
-&nbsp;&nbsp;&nbsp;title
-&nbsp;&nbsp;&nbsp;image
-&nbsp;&nbsp;&nbsp;description
-**Bachana** - admin:
-&nbsp;middleware
+**Tornike**
 
-    - guest:
-        &nbsp;comments:
-            &nbsp;&nbsp;add, own comments edit
-        &nbsp;search by title
+    admin (crud):
 
-**Vakgtangi** - admin:
-&nbsp;crud:
-&nbsp;&nbsp;about us page:
-&nbsp;&nbsp;&nbsp;image
-&nbsp;&nbsp;&nbsp;description - guest:
-&nbsp;about us select
+    	news:
+    		id
+    		image
+    		title
+    		description
+
+**Mate**
+
+    guest:
+
+        index:
+            news:
+                image
+                title
+                readmore
+
+        single page:
+            news:
+                title
+                image
+                description
+
+**Bachana**
+
+    admin:
+        middleware,
+
+    guest:
+        comments:
+            add, own comments edit
+        search by title
+
+**Vakgtangi**
+
+    admin:
+
+        crud:
+
+            about us page:
+                image
+                description
+
+    guest:
+
+        about us select
