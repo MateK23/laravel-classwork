@@ -1,4 +1,4 @@
-<p align="center">Laravel Homework</p>
+<h1>Laravel Homework</h1>
 Group 6
 
 ## Tasks
