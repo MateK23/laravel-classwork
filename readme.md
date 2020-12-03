@@ -1,11 +1,11 @@
-<p align="center"><h1>Laravel Group 6 Homework</h1></p>
+<p align="center">Laravel Homework</p>
+Group 6
 
 ## Tasks
 
 **Tornike**
 
     admin (crud):
-
     	news:
     		id
     		image
@@ -15,13 +15,11 @@
 **Mate**
 
     guest:
-
         index:
             news:
                 image
                 title
                 readmore
-
         single page:
             news:
                 title
@@ -32,7 +30,6 @@
 
     admin:
         middleware,
-
     guest:
         comments:
             add, own comments edit
@@ -41,13 +38,9 @@
 **Vakgtangi**
 
     admin:
-
         crud:
-
             about us page:
                 image
                 description
-
     guest:
-
         about us select
