@@ -39,6 +39,13 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapWebRoutes();
 
+        $this->mapMateRoutes();
+        $this->mapTornikeRoutes();
+        $this->mapKhintoRoutes();
+        $this->mapVakhoRoutes();
+        $this->mapBerekashviliRoutes();
+        $this->mapValeriRoutes();
+
         //
     }
 
